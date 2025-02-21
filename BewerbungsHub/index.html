@@ -1,38 +1,58 @@
 <!DOCTYPE html>
 <html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BewerbungsHub – Farbpaletten</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Bewerbungsmappe Vorlagen</h1>
+      <p>Deine Bewerbung – Professionell, Modern &amp; Zeitlos</p>
+    </header>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>BewerbungsHub – Für ein Leben lang</title>
-  <!-- Globale Styles aus src/style.css -->
-  <link rel="stylesheet" href="/src/style.css" />
-</head>
+    <!-- Auswahl der Farbpalette -->
+    <div class="color-switcher">
+      <label for="paletteSelect">Farbschema wählen:</label>
+      <select id="paletteSelect">
+        <option value="warmesblau">Warmes Blau</option>
+        <option value="blaugruen">Blaugrün</option>
+        <option value="gruen">Grün</option>
+        <option value="blau">Blau</option>
+        <option value="orange">Orange</option>
+        <option value="rot">Rot</option>
+        <option value="violett">Violett</option>
+      </select>
+    </div>
 
-<body>
-  <div class="hero">
-    <h1>Bewerbungsmappe Vorlagen</h1>
-    <p>Deine Bewerbung – Professionell, Modern &amp; Zeitlos</p>
+    <!-- Bilder (4 Stück) -->
     <div class="images">
-      <!-- Passe die Bildpfade an, falls nötig -->
-      <img src="/src/assets/images/mappe1.png" alt="Bewerbungsmappe Vorlage 1" />
-      <img src="/src/assets/images/mappe2.png" alt="Bewerbungsmappe Vorlage 2" />
-      <img src="/src/assets/images/mappe3.png" alt="Bewerbungsmappe Vorlage 3" />
-      <img src="/src/assets/images/mappe4.png" alt="Bewerbungsmappe Vorlage 4" />
+      <div class="image-container">
+        <img id="img1" src="/src/assets/images/warmesblau1.png" alt="Bild 1" />
+      </div>
+      <div class="image-container">
+        <img id="img2" src="/src/assets/images/warmesblau2.png" alt="Bild 2" />
+      </div>
+      <div class="image-container">
+        <img id="img3" src="/src/assets/images/warmesblau3.png" alt="Bild 3" />
+      </div>
+      <div class="image-container">
+        <img id="img4" src="/src/assets/images/warmesblau4.png" alt="Bild 4" />
+      </div>
+    </div>
 
-    </div>
+    <!-- Download-Buttons -->
     <div class="download-buttons">
-      <!-- Download-Links zu den .docx-Dateien -->
-      <a class="download-btn" href="public/downloads/Bewerbungsmappe_DE.docx" download>Bewerbungsmappe Download</a>
-      <a class="download-btn" href="public/downloads/Anschreiben_DE.docx" download>Anschreiben Download</a>
-      <a class="download-btn" href="public/downloads/Lebenslauf_DE.docx" download>Lebenslauf Download</a>
+      <a class="download-btn" href="/downloads/Bewerbungsmappe.docx" download>Bewerbungsmappe Download</a>
+      <a class="download-btn" href="/downloads/Anschreiben.docx" download>Anschreiben Download</a>
+      <a class="download-btn" href="/downloads/Lebenslauf.docx" download>Lebenslauf Download</a>
     </div>
+
     <div class="motivational">
       Einmal downloaden – ein Leben lang nutzen!
     </div>
-  </div>
-  <!-- Haupt-JS-Datei einbinden -->
-  <script type="module" src="/src/main.js"></script>
-</body>
 
+    <script type="module" src="/src/main.js"></script>
+  </body>
 </html>
