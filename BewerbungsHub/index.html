@@ -1,58 +1,61 @@
 <!DOCTYPE html>
 <html lang="de">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>BewerbungsHub – Farbpaletten</title>
-    <link rel="stylesheet" href="/src/style.css" />
-  </head>
-  <body>
-    <header>
-      <h1>Bewerbungsmappe Vorlagen</h1>
-      <p>Deine Bewerbung – Professionell, Modern &amp; Zeitlos</p>
-    </header>
 
-    <!-- Auswahl der Farbpalette -->
-    <div class="color-switcher">
-      <label for="paletteSelect">Farbschema wählen:</label>
-      <select id="paletteSelect">
-        <option value="warmesblau">Warmes Blau</option>
-        <option value="blaugruen">Blaugrün</option>
-        <option value="gruen">Grün</option>
-        <option value="blau">Blau</option>
-        <option value="orange">Orange</option>
-        <option value="rot">Rot</option>
-        <option value="violett">Violett</option>
-      </select>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BewerbungsHub – Farbpaletten</title>
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Bewerbungsmappe Vorlagen</h1>
+    <p>Deine Bewerbung – Professionell, Modern &amp; Zeitlos</p>
+  </header>
+
+  <!-- Auswahl der Farbpalette -->
+  <div class="color-switcher">
+    <label for="paletteSelect">Farbschema wählen:</label>
+    <select id="paletteSelect">
+      <option value="warmesblau">Warmes Blau</option>
+      <option value="blaugruen">Blaugrün</option>
+      <option value="gruen">Grün</option>
+      <option value="blau">Blau</option>
+      <option value="orange">Orange</option>
+      <option value="rot">Rot</option>
+      <option value="violett">Violett</option>
+    </select>
+  </div>
+
+  <!-- Bilder (4 Stück) -->
+  <div class="images">
+    <div class="image-container">
+      <img id="img1" src="/images/warmesblau1.png" alt="Bild 1" />
     </div>
-
-    <!-- Bilder (4 Stück) -->
-    <div class="images">
-      <div class="image-container">
-        <img id="img1" src="/src/assets/images/warmesblau1.png" alt="Bild 1" />
-      </div>
-      <div class="image-container">
-        <img id="img2" src="/src/assets/images/warmesblau2.png" alt="Bild 2" />
-      </div>
-      <div class="image-container">
-        <img id="img3" src="/src/assets/images/warmesblau3.png" alt="Bild 3" />
-      </div>
-      <div class="image-container">
-        <img id="img4" src="/src/assets/images/warmesblau4.png" alt="Bild 4" />
-      </div>
+    <div class="image-container">
+      <img id="img2" src="/images/warmesblau2.png" alt="Bild 2" />
     </div>
-
-    <!-- Download-Buttons -->
-    <div class="download-buttons">
-      <a class="download-btn" href="/downloads/Bewerbungsmappe.docx" download>Bewerbungsmappe Download</a>
-      <a class="download-btn" href="/downloads/Anschreiben.docx" download>Anschreiben Download</a>
-      <a class="download-btn" href="/downloads/Lebenslauf.docx" download>Lebenslauf Download</a>
+    <div class="image-container">
+      <img id="img3" src="/images/warmesblau3.png" alt="Bild 3" />
     </div>
-
-    <div class="motivational">
-      Einmal downloaden – ein Leben lang nutzen!
+    <div class="image-container">
+      <img id="img4" src="/images/warmesblau4.png" alt="Bild 4" />
     </div>
+  </div>
 
-    <script type="module" src="/src/main.js"></script>
-  </body>
+  <!-- Download-Buttons -->
+  <div class="download-buttons">
+    <a class="download-btn" href="/downloads/Bewerbungsmappe.docx" download>Bewerbungsmappe Download</a>
+    <a class="download-btn" href="/downloads/Anschreiben.docx" download>Anschreiben Download</a>
+    <a class="download-btn" href="/downloads/Lebenslauf.docx" download>Lebenslauf Download</a>
+  </div>
+
+  <div class="motivational">
+    Einmal downloaden – ein Leben lang nutzen!
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+
 </html>

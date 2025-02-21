@@ -1,69 +1,69 @@
 document.addEventListener('DOMContentLoaded', () => {
   console.log("BewerbungsHub – Farbpaletten-Logik geladen!");
 
-  // Palette-Daten (ohne Office, Graustufe und Gelb)
+  // Palette-Daten (mit neuen Bildpfaden)
   const paletteData = {
     warmesblau: {
       themeClass: 'theme-warmesblau',
       images: [
-        '/src/assets/images/warmesblau1.png',
-        '/src/assets/images/warmesblau2.png',
-        '/src/assets/images/warmesblau3.png',
-        '/src/assets/images/warmesblau4.png'
+        '/images/warmesblau1.png',
+        '/images/warmesblau2.png',
+        '/images/warmesblau3.png',
+        '/images/warmesblau4.png'
       ]
     },
     blaugruen: {
       themeClass: 'theme-blaugruen',
       images: [
-        '/src/assets/images/blaugruen1.png',
-        '/src/assets/images/blaugruen2.png',
-        '/src/assets/images/blaugruen3.png',
-        '/src/assets/images/blaugruen4.png'
+        '/images/blaugruen1.png',
+        '/images/blaugruen2.png',
+        '/images/blaugruen3.png',
+        '/images/blaugruen4.png'
       ]
     },
     gruen: {
       themeClass: 'theme-gruen',
       images: [
-        '/src/assets/images/gruen1.png',
-        '/src/assets/images/gruen2.png',
-        '/src/assets/images/gruen3.png',
-        '/src/assets/images/gruen4.png'
+        '/images/gruen1.png',
+        '/images/gruen2.png',
+        '/images/gruen3.png',
+        '/images/gruen4.png'
       ]
     },
     blau: {
       themeClass: 'theme-blau',
       images: [
-        '/src/assets/images/blau1.png',
-        '/src/assets/images/blau2.png',
-        '/src/assets/images/blau3.png',
-        '/src/assets/images/blau4.png'
+        '/images/blau1.png',
+        '/images/blau2.png',
+        '/images/blau3.png',
+        '/images/blau4.png'
       ]
     },
     orange: {
       themeClass: 'theme-orange',
       images: [
-        '/src/assets/images/orange1.png',
-        '/src/assets/images/orange2.png',
-        '/src/assets/images/orange3.png',
-        '/src/assets/images/orange4.png'
+        '/images/orange1.png',
+        '/images/orange2.png',
+        '/images/orange3.png',
+        '/images/orange4.png'
       ]
     },
     rot: {
       themeClass: 'theme-rot',
       images: [
-        '/src/assets/images/rot1.png',
-        '/src/assets/images/rot2.png',
-        '/src/assets/images/rot3.png',
-        '/src/assets/images/rot4.png'
+        '/images/rot1.png',
+        '/images/rot2.png',
+        '/images/rot3.png',
+        '/images/rot4.png'
       ]
     },
     violett: {
       themeClass: 'theme-violett',
       images: [
-        '/src/assets/images/violett1.png',
-        '/src/assets/images/violett2.png',
-        '/src/assets/images/violett3.png',
-        '/src/assets/images/violett4.png'
+        '/images/violett1.png',
+        '/images/violett2.png',
+        '/images/violett3.png',
+        '/images/violett4.png'
       ]
     }
   };
