@@ -92,16 +92,16 @@ Bearbeiten
 
 ---
 
-## **📌 Warum ist die README.md wichtig?**
-✅ **SEO-freundlich** – Google indexiert GitHub-Readme-Dateien  
-✅ **Einfach zu installieren** – Jeder kann das Projekt nachmachen  
-✅ **Live-Demo verlinkt** – Perfekt für Besucher  
-✅ **Übersichtliche Beschreibung** – Bessere Sichtbarkeit für dein Projekt  
-✅ **Vollständige Anleitungen** – Für Installation, Deployment & Features  
+📌 Warum ist die README.md wichtig?
+✅ SEO-freundlich** – Google indexiert GitHub-Readme-Dateien  
+✅ Einfach zu installieren** – Jeder kann das Projekt nachmachen  
+✅ Live-Demo verlinkt** – Perfekt für Besucher  
+✅ Übersichtliche Beschreibung** – Bessere Sichtbarkeit für dein Projekt  
+✅ Vollständige Anleitungen** – Für Installation, Deployment & Features  
 
 ---
 
-## **✅ Was du jetzt tun kannst:**
+✅ Was du jetzt tun kannst:
 1. **Erstelle die `README.md` in deinem Projektverzeichnis**  
 2. **Kopiere & speichere den Inhalt in `README.md`**  
 3. **Lade das Projekt auf GitHub hoch**:
