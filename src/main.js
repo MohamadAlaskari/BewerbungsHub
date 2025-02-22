@@ -6,64 +6,64 @@ document.addEventListener('DOMContentLoaded', () => {
     warmesblau: {
       themeClass: 'theme-warmesblau',
       images: [
-        '/images/warmesblau1.png',
-        '/images/warmesblau2.png',
-        '/images/warmesblau3.png',
-        '/images/warmesblau4.png'
+        '/images/warmesblue/warmesblue1.png',
+        '/images/warmesblue/warmesblue2.png',
+        '/images/warmesblue/warmesblue3.png',
+        '/images/warmesblue/warmesblue4.png'
       ]
     },
     blaugruen: {
       themeClass: 'theme-blaugruen',
       images: [
-        '/images/blaugruen1.png',
-        '/images/blaugruen2.png',
-        '/images/blaugruen3.png',
-        '/images/blaugruen4.png'
+        '/images/blaugruen/blaugruen1.png',
+        '/images/blaugruen/blaugruen2.png',
+        '/images/blaugruen/blaugruen3.png',
+        '/images/blaugruen/blaugruen4.png'
       ]
     },
     gruen: {
       themeClass: 'theme-gruen',
       images: [
-        '/images/gruen1.png',
-        '/images/gruen2.png',
-        '/images/gruen3.png',
-        '/images/gruen4.png'
+        '/images/gruen/gruen1.png',
+        '/images/gruen/gruen2.png',
+        '/images/gruen/gruen3.png',
+        '/images/gruen/gruen4.png'
       ]
     },
     blau: {
       themeClass: 'theme-blau',
       images: [
-        '/images/blau1.png',
-        '/images/blau2.png',
-        '/images/blau3.png',
-        '/images/blau4.png'
+        '/images/blue/blue1.png',
+        '/images/blue/blue2.png',
+        '/images/blue/blue3.png',
+        '/images/blue/blue4.png'
       ]
     },
     orange: {
       themeClass: 'theme-orange',
       images: [
-        '/images/orange1.png',
-        '/images/orange2.png',
-        '/images/orange3.png',
-        '/images/orange4.png'
+        '/images/orange/orange1.png',
+        '/images/orange/orange2.png',
+        '/images/orange/orange3.png',
+        '/images/orange/orange4.png'
       ]
     },
     rot: {
       themeClass: 'theme-rot',
       images: [
-        '/images/rot1.png',
-        '/images/rot2.png',
-        '/images/rot3.png',
-        '/images/rot4.png'
+        '/images/rot/rot1.png',
+        '/images/rot/rot2.png',
+        '/images/rot/rot3.png',
+        '/images/rot/rot4.png'
       ]
     },
     violett: {
       themeClass: 'theme-violett',
       images: [
-        '/images/violett1.png',
-        '/images/violett2.png',
-        '/images/violett3.png',
-        '/images/violett4.png'
+        '/images/violett/violett1.png',
+        '/images/violett/violett2.png',
+        '/images/violett/violett3.png',
+        '/images/violett/violett4.png'
       ]
     }
   };
