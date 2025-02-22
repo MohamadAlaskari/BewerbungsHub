@@ -111,12 +111,3 @@ Bearbeiten
    git push origin main
 Deployment mit Vercel abschließen & Link testen
 Jetzt wird dein BewerbungsHub professioneller & besser gefunden! 🚀🔥
-
-Falls du noch Fragen hast, sag einfach Bescheid! 😊
-
-
-
-
-
-
-
