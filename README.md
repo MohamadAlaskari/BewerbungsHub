@@ -17,7 +17,7 @@
 ---
 
 ## 📸 **Screenshots**
-![BewerbungsHub Screenshot](https://bewerbungs-hub.vercel.app/images/preview.jpg)
+![BewerbungsHub Screenshot](https://bewerbungs-hub.vercel.app/images/blaugruen3.png)
 
 ---
 
